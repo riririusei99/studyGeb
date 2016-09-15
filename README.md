@@ -1,7 +1,5 @@
 # Example Geb and Gradle Project
 
-[![Build Status][build_status]](https://snap-ci.com/geb/geb-example-gradle/branch/master)
-
 ## Description
 
 This is an example of incorporating Geb into a Gradle build. It shows the use of Spock and JUnit 4 tests.
