@@ -33,7 +33,17 @@ environments {
 
 }
 
+
 // To run the tests with all browsers just run “./gradlew test”
 
-baseUrl = "http://gebish.org"
-reportsDir = "build/reports/chromeTest"
+//baseUrl = "http://gebish.org"
+baseUrl = "https://www.google.co.jp"
+reportsDir = "build/reports/test/capture"
+
+// Atention: Please set binary ChromeDriver to the writing path
+System.setProperty("webdriver.chrome.driver","./src/test/resources/driver/chromedriver")
+
+driver={
+	def driver = new ChromeDriver()
+	driver
+}
