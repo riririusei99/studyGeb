@@ -40,7 +40,7 @@ environments {
 baseUrl = "https://www.google.co.jp"
 reportsDir = "build/reports/test/capture"
 
-// Atention: Please set binary ChromeDriver to the writing path
+// Atention: When you use ,Please set binary ChromeDriver to this path
 System.setProperty("webdriver.chrome.driver","./src/test/resources/driver/chromedriver")
 
 driver={
