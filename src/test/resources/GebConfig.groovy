@@ -42,6 +42,7 @@ reportsDir = "build/reports/test/capture"
 
 // Atention: When you use ,Please set binary ChromeDriver to this path
 System.setProperty("webdriver.chrome.driver","./src/test/resources/driver/chromedriver")
+System.setProperty("webdriver.phantomJs.driver","./src/test/resources/driver/phantomjs")
 
 driver={
 	def driver = new ChromeDriver()
